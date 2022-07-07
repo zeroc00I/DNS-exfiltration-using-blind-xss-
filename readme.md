@@ -11,7 +11,7 @@ interactsh-client | tee -a saida  | tr -d '[]' | cut -f1 -d ' ' | xargs -I@ bash
 ```
 
 ## Payload attacker
-The payload below will convert all cookies present on the current page into multiple requests (using fetch function from js), attempting to call your malicious server which is waiting for DNS queries. 
+The payload below will convert all cookies present on the current page into multiple requests (using fetch function from JS), attempting to call your malicious server, which will be listining for DNS queries. 
 The trickest and coolest part here is that, if for some reason, the client-side block the GET request from the client-side to be made, with this payload the browser probably has already started a DNS lookup to check if the host provided is alive to be fetched. Then, we can exploit this behavior to gain some advantages. 
 
 #### JS Command
